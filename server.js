@@ -291,9 +291,9 @@ app.put("/MainPage/:id", (req, res) => {
 });
 
 
-// app.get("/Yes",(req,res)=>{ 
-//   res.send("HIII i am the servere");
-// })
+app.get("/",(req,res)=>{ 
+  res.send("working");
+})
 
 const port=process.env.PORT||5000;
 
